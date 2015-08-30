@@ -10,7 +10,14 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="navbar">
+        <ul class="nav navbar-nav">
+          <li class='active'><a href="#intro">Giới thiệu</a></li>
+          <li><a href="#solution">Giải pháp</a></li>
+          <li><a href="#instructions">Đóng góp</a></li>
+        </ul>
+      </div>
+      <div class="row"  id="intro">
         <div class="col-md-12">
           <center><h1>Dự án nghiên cứu sử dụng crowd sourcing để tìm giải pháp cho vấn đề thi đại học ở Việt Nam</h1></center>
           <p>
@@ -38,8 +45,35 @@
             <li>tiết kiệm chi phí hơn: phần lớn người tham dưới hình thức tự nguyện, mọi chi phí của dự án nếu có sẽ được tính toán kĩ lưỡng, công khai và đánh giá trước khi được đưa vào thực tiễn nên sẽ tránh được tình trạng thừa-thiếu.</li>
           </ol>
         </div>
+      </div>
+      <div class="row" id="instructions">
+        <div class="col-md-12">
+          <center><h1>Đóng góp</h1></center>
+          <p>
+            Thông tin của trang  web  được mở hoàng toàn tại <a href="https://github.com/caicachthidaihoc/caicachthidaihoc.github.io">github</a>. Những bạn biết sử dụng github có thể clone repository và tạo pull-request trực tiếp cho group quản lí trang. Sau đây là cách hướng dẫn sử dụng cho những bạn chưa từng sử dụng github.
+          </p>
+          <p>
 
+          </p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = 'caicachthidaihoc';
+              
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
